@@ -13,6 +13,13 @@ import logging
 from graph import *
 import copy
 
+#create article dataset log user visualize folder
+os.makedirs('article', exist_ok=True)
+os.makedirs('dataset', exist_ok=True)
+os.makedirs('log', exist_ok=True)
+os.makedirs('user', exist_ok=True)
+os.makedirs('visualize', exist_ok=True)
+
 
 # VERBOSE_LEVEL = 25
 VERBOSE_LEVEL = 25
